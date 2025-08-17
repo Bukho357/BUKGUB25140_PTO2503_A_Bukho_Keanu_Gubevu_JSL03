@@ -55,6 +55,7 @@ Use meaningful variable and function names for readability.
 Follow consistent indentation and formatting.
 
 Add comments explaining key logic and functionality.
+![console log](./explainer-images/console%20log.png)
 
 ## 🚀 Technologies Used
 
