@@ -14,8 +14,6 @@ Users enter task details (title, description, status) via prompts.
 
 A filter function allows users to view only tasks with a done status.
 
-The project focuses on:
-
 Array manipulation
 
 User interaction via prompts and alerts
@@ -58,10 +56,6 @@ Follow consistent indentation and formatting.
 
 Add comments explaining key logic and functionality.
 
-## ✅ Expected Outcome
-
-A structured, limited task management system that lets users add, review, and filter tasks efficiently while keeping the code clean, documented, and maintainable.
-
 ## 🚀 Technologies Used
 
 HTML5 – Base structure
@@ -83,18 +77,6 @@ Validate status input (todo, doing, done)
 Alerts user when task limit is reached
 
 Logs all tasks and completed tasks to the console
-
-## 🧰 Setup Instructions
-
-To run this project locally:
-
-Ensure your JSL02 project is corrected.
-
-Clone this repository or download the project folder.
-
-Open the index.html file in your browser.
-
-Open the Developer Console (Ctrl+Shift+I / Cmd+Option+I) to interact with prompts and view logs.
 
 ## 📁 Folder Structure
 
