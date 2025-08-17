@@ -1,13 +1,10 @@
-JSL03 Project Brief: Console-Based Task Manager
-📌 Important Prerequisite
+## Console-Based Task Manager
 
-Before starting this challenge:
+## 📌 Project Description
 
-Review and correct your JSL02 project using the provided solution. Your prompts for entering task details must be functional and properly validated.
+This project is a JavaScript-driven Console-Based Task Manager that allows users to add and manage tasks interactively. Tasks are stored as objects in an array, each with a unique incremental ID. Users can add up to three new tasks through prompts, with fields for task title, description, and status. The system ensures input validation for statuses (todo, doing, done) and provides feedback via alerts and console logs.
 
-Check the project user stories in your student dashboard and make sure you understand what is required for each feature.
-
-📖 Overview
+## 📖 Overview
 
 This project involves creating a simple console-based task management system where users can add up to three new tasks to an existing task array.
 
@@ -25,7 +22,8 @@ User interaction via prompts and alerts
 
 Console logging for task tracking
 
-🎯 Key Objectives
+## 🎯 Key Objectives
+
 Logic & User Interaction
 
 Store tasks as objects inside an array for structured data management.
@@ -60,28 +58,11 @@ Follow consistent indentation and formatting.
 
 Add comments explaining key logic and functionality.
 
-✅ Expected Outcome
+## ✅ Expected Outcome
 
 A structured, limited task management system that lets users add, review, and filter tasks efficiently while keeping the code clean, documented, and maintainable.
 
-🖥️ Console Output Example
-
-Example after adding two new tasks (one completed, one in progress):
-
-All tasks: [
-{ id: 1, title: "Launch Epic Career", description: "Create a killer Resume", status: "todo" },
-{ id: 2, title: "Master JavaScript", description: "Get comfortable with the fundamentals", status: "doing" },
-{ id: 3, title: "Contribute to Open Source Projects", description: "Gain practical experience and collaborate", status: "done" },
-{ id: 4, title: "Build Portfolio Website", description: "Showcase projects online", status: "done" },
-{ id: 5, title: "Read ES6 Guide", description: "Learn new JavaScript features", status: "doing" }
-]
-
-Completed Tasks: [
-{ id: 3, title: "Contribute to Open Source Projects", description: "Gain practical experience and collaborate", status: "done" },
-{ id: 4, title: "Build Portfolio Website", description: "Showcase projects online", status: "done" }
-]
-
-🚀 Technologies Used
+## 🚀 Technologies Used
 
 HTML5 – Base structure
 
@@ -89,7 +70,7 @@ CSS3 – (Optional) Styling support if extended
 
 JavaScript – Core logic, interactivity, validation, and task management
 
-✨ Features
+## ✨ Features
 
 Predefined task list with different statuses
 
@@ -103,7 +84,7 @@ Alerts user when task limit is reached
 
 Logs all tasks and completed tasks to the console
 
-🧰 Setup Instructions
+## 🧰 Setup Instructions
 
 To run this project locally:
 
@@ -115,7 +96,8 @@ Open the index.html file in your browser.
 
 Open the Developer Console (Ctrl+Shift+I / Cmd+Option+I) to interact with prompts and view logs.
 
-📁 Folder Structure
+## 📁 Folder Structure
+
 project-folder/
 │
 ├── index.html # Main HTML file
@@ -123,7 +105,7 @@ project-folder/
 ├── script.js # JavaScript file with all logic
 └── README.md # Project documentation
 
-📋 User Stories
+## 📋 User Stories
 
 As a user, I want to add up to three tasks so I can extend my task list.
 
@@ -133,7 +115,7 @@ As a user, I want to see completed tasks separately to track progress.
 
 As a developer, I want the code to be clean and maintainable for future improvements.
 
-🧼 Code Quality Notes
+## 🧼 Code Quality Notes
 
 Descriptive variable and function names.
 
@@ -143,7 +125,7 @@ Inline comments for logic and validation steps.
 
 Separation of all tasks vs completed tasks in logs.
 
-🕓 Commit History
+## 🕓 Commit History
 
 Add initial predefined task array
 
